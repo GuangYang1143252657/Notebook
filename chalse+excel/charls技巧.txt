@@ -1,0 +1,3 @@
+记录charls抓包方式--手机20190509
+1.记录学会Charls抓包软件，在windows电脑上直接下载打开后就可以看到已经配置好的网络，任何一个发请求的操作都可以在信息列表中看到
+2.Charls连手机，抓手机上的包。注意，当在同一个Wi-Fi网络下时，手机需要链接同样的Wi-Fi，可以在终端中用ipconfig（windows是ipconfig，mac是ifconfig，在Wi-Fi下找到en0，inet是Windows中的ipv4）去查看自己在ipv4下的IP地址，在charls中协议下设置自己的端口号为8888，在手机中连的同一个wifi下长按找到更多设置，即可编辑ip地址和端口号。
